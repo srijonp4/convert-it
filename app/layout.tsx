@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import Navbar from '@/components/navbar';
 import { Toaster } from '@/components/ui/toaster';
 import { ThemeProvider } from '@/components/theme-provider';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -41,6 +42,7 @@ export default function RootLayout({
             {children}
           </div>
         </ThemeProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
