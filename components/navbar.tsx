@@ -84,7 +84,7 @@ export default function Navbar({}): any {
                     </Button>
                   </Link>
                 </SheetTrigger>
-                <SheetTrigger asChild>
+                {/* <SheetTrigger asChild>
                   <Link href="/privacy-policy">
                     <Button
                       variant="link"
@@ -93,7 +93,7 @@ export default function Navbar({}): any {
                       Privacy Policy
                     </Button>
                   </Link>
-                </SheetTrigger>
+                </SheetTrigger> */}
                 <ModeToggle />
               </div>
             </SheetDescription>
